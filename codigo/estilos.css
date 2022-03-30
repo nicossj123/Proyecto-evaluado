@@ -1,4 +1,22 @@
-    #MenuInicio{
-        color: whitesmoke;
+    :root{
+        --cafe: #AD8B73;
+        --cafe_claro: #E3CAA5;
+        --crema: #FFFBE9;
+    }
 
+    .bg-primary{
+        background-color: var(--cafe) !important;
+    }
+
+    #menu_principal{
+        min-height: 100vh;
+            
+    }
+    
+    #menu_principal .logo{
+        padding: .875rem 1.25rem;
+    }
+
+    #menu_principal .menu{
+        width: 18rem;
     }
