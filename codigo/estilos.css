@@ -36,8 +36,11 @@
     }
 
     img{
-        width: 100%;
-        height: 35vh;   
+        width: 100vmax;
+        height: 40vh;
+           
     }
 
-    
+    #imagen-perromascarilla{
+        width: 83vmax;
+    }
