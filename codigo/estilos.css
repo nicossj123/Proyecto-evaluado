@@ -4,19 +4,40 @@
         --crema: #FFFBE9;
     }
 
-    .bg-primary{
-        background-color: var(--cafe) !important;
+    #menu-inicio{
+        background-color: #AD8B73;
+        min-height: 100vh;
+        border-right: solid;
     }
 
-    #menu_principal{
-        min-height: 100vh;
-            
-    }
-    
-    #menu_principal .logo{
+    #menu{
         padding: .875rem 1.25rem;
     }
-
-    #menu_principal .menu{
-        width: 18rem;
+    
+    body{
+        font-family: Helvetica, sans-serif;
+        color: #826F66;
     }
+
+    
+    ul{
+        list-style-type: none;
+    }
+
+    li{
+        margin-top: 16px;
+        margin-bottom: 30px;
+        margin-right: 20px;
+
+    }
+
+    #iniciar-sesion{
+        margin-top: 120px;
+    }
+
+    img{
+        width: 100%;
+        height: 35vh;   
+    }
+
+    
