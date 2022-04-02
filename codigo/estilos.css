@@ -5,9 +5,10 @@
     }
 
     #menu-inicio{
-        background-color: #AD8B73;
+        background-color: var(--cafe);
         min-height: 100%;
         border-right: solid;
+        border-color: var(--crema);        
     }
 
     #menu{
@@ -16,7 +17,8 @@
     
     body{
         font-family: Helvetica, sans-serif;
-        color:white;
+        color:var(--crema);
+        background-color: var(--crema);      
     }
 
     
@@ -51,8 +53,34 @@
         margin-left: 3vh;
     }
 
-    @media screen and (min-height : 970px){
-        #contactos{
-            margin-top:20vh
-        }
+    #i-sesion{
+        margin-top: 20vh;
+        height: 60vh;
+        width: 40vw;
+        background-color:var(--cafe);
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border-style: solid;
+        border-color: var(--crema);
+        border-width: 10px;
+        
+    }
+    
+    #correo-input{
+        margin-top: 10vh;            
+    }
+
+    #contrasena-input{
+        margin-top: 3vh;
+    }
+
+    #cuerpo-sesion{
+        background-image: url(IMG/fondoxdwp.webp);
+        background-size: cover;
+        
+
+    }
+
+    a{
+        text-decoration: none;
+        color: var(--crema);
     }
