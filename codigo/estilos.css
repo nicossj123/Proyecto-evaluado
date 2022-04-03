@@ -101,9 +101,78 @@
 
     #buscar-articulo{
         width: 10vw;
+        margin-left: 35vw;    
+    }
+
+    #buscar-boton{
+        margin-left: 20vw;
     }
 
     #filtrar{
-        margin-left: 30vw;
+        padding: 10px;
     }
 
+    #bxseccion{
+        padding: 10px;
+    }
+
+   .image{
+       position: relative;
+   }
+
+   .text{
+       position: relative;
+       top: 200px;
+       left: 0;
+       width: 100%;
+       margin: 0 auto;
+       width: 300px;
+       height: 50px;
+   }
+
+   .card-text{
+       color: black;
+       text-align: left;
+
+   }
+
+   .card-title{
+       color: black;
+   }
+
+   #cama-perro{
+       height: 20vh;
+       
+   } 
+
+   .card{
+       margin: 30px;
+   }
+
+   #correa-perro{
+       height: 20vh;
+   
+   }
+
+   #cama-gatos{
+       height: 20vh;
+      
+   }
+
+   #proceder-pago{
+       height: 30vh;
+       background-color: var(--cafe);
+       padding: 2rem;
+       border-radius: 3rem;
+       text-align: left;       
+   }
+
+   #panel{
+       margin-top: 10vh;
+   }
+
+   #checkbox{
+    background-color: var(--cafe);
+    padding: 2rem;
+    border-radius: 3rem;    
+   }
