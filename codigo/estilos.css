@@ -84,3 +84,26 @@
         text-decoration: none;
         color: var(--crema);
     }
+
+    #tienda-header{        
+        background-color: var(--cafe);
+    }
+
+    #tiendah{
+        margin-left: 46vw;
+    }
+
+    #cuerpo-tienda{
+        background-image: url(IMG/fondoxdwp.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #buscar-articulo{
+        width: 10vw;
+    }
+
+    #filtrar{
+        margin-left: 30vw;
+    }
+
